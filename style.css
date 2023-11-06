@@ -1,35 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
 body{
     display:flex;
     flex-direction: column;
     margin:0;
+    font-family:Roboto, sans-serif;
 }
 
 .header{
     color:white;
     display:flex;
     justify-content: space-between;
-    background-color: rgb(68, 45, 142);
-    padding:12px 150px 12px 150px;
+    background-color: #1F2937;
+    padding:12px 150px 50px 150px;
 }
 .logo{
-    font-size:20px;
+    font-size:24px;
     font-weight: bold;
+    color:#F9FAF8;
 }
 
 .subheader{
     color:white;
     display:flex;
     justify-content: space-between;
-    background-color:rgb(68, 45, 142);
-    padding:12px 150px 12px 150px;
+    background-color:#1F2937;
+    padding:12px 150px 80px 150px;
 }
 .bigtext{
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight:900;
+    padding-right:50px;
 }
 .paragraph{
-    padding: 12px 150px 12px 0px
+    font-size:18px;
+    color: #a7a8ac;
+    padding: 12px 50px 12px 0px
 }
 a{
     padding:10px;
 }
+img{
+    flex-shrink:0;
+}
+.mid-body{
+    padding:30px 150px 80px 150px;
+}
+.body-head{
+    display:flex;
+    justify-content: center;
+    font-size:36px;
+    font-weight:900;
+}
+.sub-body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    align-items: center;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    gap:12px;
+    margin:20px;
+}
+
+.quote{
+    padding:80px 150px 80px 150px;
+    background-color: #a7a8ac;
+    color:#1F2937;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.quote-text{
+    font-size: 36px;
+    font-weight:300;
+    font-style:italic;
+}
+.signature{
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: 900;
+}
+
