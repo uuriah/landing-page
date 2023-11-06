@@ -1,0 +1,35 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin:0;
+}
+
+.header{
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(68, 45, 142);
+    padding:12px 150px 12px 150px;
+}
+.logo{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.subheader{
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    background-color:rgb(68, 45, 142);
+    padding:12px 150px 12px 150px;
+}
+.bigtext{
+    font-size: 30px;
+    font-weight: bold;
+}
+.paragraph{
+    padding: 12px 150px 12px 0px
+}
+a{
+    padding:10px;
+}
