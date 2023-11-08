@@ -46,8 +46,8 @@ a{
 }
 .bigimage{
     flex:none;
-    max-width:60%;
-    height:auto;
+    width:400px;
+    height:266.72px;
     /* border-width: 8px;
     border-color:rgb(68, 57, 224);
     border-style: solid;
