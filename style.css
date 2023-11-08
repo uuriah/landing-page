@@ -14,7 +14,7 @@ body{
     display:flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding:12px 150px 50px 150px;
+    padding:5% 10% 5% 10%;
 }
 .logo{
     font-size:28px;
@@ -27,7 +27,7 @@ body{
     display:flex;
     justify-content: space-between;
     background-color:#1f2937b9;
-    padding:12px 150px 80px 150px;
+    padding:5% 10% 5% 10%;
 }
 .bigtext{
     font-size: 48px;
@@ -105,7 +105,7 @@ img{
 }
 
 .quote{
-    padding:80px 150px 80px 150px;
+    padding:5% 10% 5% 10%;
     background-color: #a7a8acc7;
     color:#1F2937;
     display:flex;
