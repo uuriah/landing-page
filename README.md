@@ -1,1 +1,1 @@
-# landing-page
+A mock up website project to get experience using flexbox # landing-page
